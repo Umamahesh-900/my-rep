@@ -22,3 +22,4 @@ jobs:
           else
             echo "No LookML files found"
             exit 1
+            fi
