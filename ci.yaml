@@ -1,0 +1,15 @@
+name: Looker CI
+ 
+on:
+  pull_request:
+    branches:
+      - master
+ 
+jobs:
+  lookml-check:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+ 
